@@ -46,7 +46,7 @@ int main()
 
 	strat = (struct strategy*) malloc(sizeof(struct strategy) * 100);
 
-	struct strategy* strat_p = realloc(strat, sizeof(struct strategy) * 100)
+	struct strategy* strat_p = realloc(strat, sizeof(struct strategy) * 100);
 	if (!strat_p)
 		return -1;
 
